@@ -1,0 +1,103 @@
+array and vectors...........................................
+Missing element from array with duplicates
+Find first repeating element
+common element in three sorted array
+wave print of a matrix
+spiral print of a matrix
+factorial of a large number
+add two numbers represented in arrays
+linear and binary seach and sort..................................
+find a first occurance in a array(linear and binary search)
+find a last occurance in a array (linear and binary search)
+find a total occurance in a array(linear and binary search)
+find a missing element in array (linear and binary search)
+Peak element in a mountain array(binary search)
+find pivot using binary search
+search in a rotated and sorted array BS
+square root of number by BS
+seach in 2D array BS
+Binary search in nearly sorted array
+divide two number BS
+find the odd occuring element in an array BS
+Find pairs with difference "k" in an array
+Find 'K' closest to a given value in an array
+exponential search
+Unbounded Binary search
+Book allocation problem
+Painter Partition problem
+Aggresive cows problem
+EKO SPOJ
+ROTI PRATA SPOJ
+char array and strings...........................................
+concepts of char array and strings
+reverse a string
+replace all places with @
+Palindrome 
+string functions
+Lc 1047
+lc 1910
+no same adjacent character
+lc 680
+lc 539 (most imp )
+lc 647
+valid anagram 242
+reverse only letter 917
+longest commmon prefix 14
+reverse vowels a string 345
+isomorphic string 205
+reorganise string 767
+group anagram 49 (most imp)
+longest palindrome 5
+find index of first occurance 28
+string to int 8
+string compression 443
+integer to roman 12
+zig zag conversion 6
+longest number 179
+pointers...............................................
+pointers concepts
+pointer problems video
+
+basic maths for dsa
+optimization sieve method
+
+time and space complexity of recurrsion
+
+Recursion.....................
+recursion concepts
+find 2^4
+fing 5!
+count
+reverse count
+fib series
+stair prob 70
+print all array
+find max 
+find min
+find key in string
+store key
+number of key
+index of key
+digits from number (numbers) 
+is input array sorted or not?
+binary search through recursion
+subsequence of a string (imp)
+incude exclude patttern
+coin change like problem
+try with extra variable (coin ex.)
+cut into segments
+maximum sum of non adjacents elements
+last occurance of a char
+reverse a string
+add strings RE
+palindrome check RE
+Remove all occurance of a substring
+Print all subarrays using RE
+buy and sell stock
+house robber problem
+interger to english words
+wild card matching
+perfect squares
+minimum cost for tickets
+number of dice roll with target sum
+
