@@ -96,8 +96,20 @@ Print all subarrays using RE
 buy and sell stock
 house robber problem
 interger to english words
-wild card matching
+wild card matching-
 perfect squares
 minimum cost for tickets
 number of dice roll with target sum
+recurion btrcking...................................................
+concept
+sudoku solver
+count inversion
+in place merge sort
+Max sub array sum
+quick sort
+combinational sum
+permutation
+beautiful arrangement
+distribute repeating integers
+oops.............................
 
