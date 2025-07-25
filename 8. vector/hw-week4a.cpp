@@ -59,27 +59,27 @@ void allnegnumleft(){
     
 }
 
-void duplicateinarray(){
+void duplicateinarrayM1(){
     int array[] = {1,2,3,4,5,6,2,3,4,6};
     vector<int>ans;
  int n = sizeof(array)/sizeof(int);
 
  for (int i = 0; i < n; i++)
  {
-    for (int j = 1; j < n-i; j++)
+    for (int j = i+1; j < n; j++)
     {
         if(array[i]==array[j]){
             swap(array[i+1],array[j]);
             i++;
         }
     }
-    
+   
  }
  
    
  
 
-for (int i = 0; i < n; i++)
+ for (int i = 0; i < n; i++)
 {
     if(array[i]==array[i+1]){
 ans.push_back(array[i]);
@@ -94,11 +94,15 @@ for(auto val : ans){
 }
 
 
+
+
 int main(){
 
     // sortArray();
     // allnegnumleft();
-    // duplicateinarray();
+    // duplicateinarrayM1();
+
+
     
     
     
