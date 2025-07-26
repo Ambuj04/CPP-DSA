@@ -1,24 +1,14 @@
-array and vectors...........................................
-Missing element from array with duplicates
-Find first repeating element
-common element in three sorted array
-wave print of a matrix
-spiral print of a matrix
-factorial of a large number
-add two numbers represented in arrays
 linear and binary seach and sort..................................
-find a first occurance in a array(linear and binary search)
-find a last occurance in a array (linear and binary search)
-find a total occurance in a array(linear and binary search)
-find a missing element in array (linear and binary search)
-Peak element in a mountain array(binary search)
+
+
+
 find pivot using binary search
 search in a rotated and sorted array BS
-square root of number by BS
-seach in 2D array BS
-Binary search in nearly sorted array
-divide two number BS
-find the odd occuring element in an array BS
+
+
+
+
+
 Find pairs with difference "k" in an array
 Find 'K' closest to a given value in an array
 exponential search
