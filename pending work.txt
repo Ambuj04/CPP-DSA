@@ -1,15 +1,7 @@
 linear and binary seach and sort..................................
-
-
-
 find pivot using binary search
 search in a rotated and sorted array BS
 
-
-
-
-
-Find pairs with difference "k" in an array
 Find 'K' closest to a given value in an array
 exponential search
 Unbounded Binary search
