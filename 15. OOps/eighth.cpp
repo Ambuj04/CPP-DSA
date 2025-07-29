@@ -18,6 +18,29 @@ public:
     }
 };
 
+class friend1{
+    private :
+    int x;
+
+    friend class friend2;
+};
+
+class friend2{
+    //access friend1 all data member and member fucntion
+
+};
+
+
+inline void Inlinefunc(){
+    cout<<"print inline func";
+    return;
+}
+
+
+
+
+
+
 // Definition and initialization of the static member outside the class
 // This allocates memory for x and sets its initial value.
 int abc::x = 10;  // it is necessary to declare and initiate outside the main function
@@ -42,6 +65,14 @@ int main(){
 
 a.printing(); 
 
+Inlinefunc();
+Inlinefunc();
+Inlinefunc();
+Inlinefunc();
+Inlinefunc();
+Inlinefunc();
+Inlinefunc();
+Inlinefunc();
  
     return 0;
 }

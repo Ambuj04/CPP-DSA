@@ -145,4 +145,20 @@ use by => obj1.x ; obj2.x ; //both print value of same x and both are exact same
 
 in static data func we only accesss static data members
 
+# Friend function
 
+Used to share the inforamtion of a class that was previously hidden
+
+private and protected ko use karne ka tarika
+
+no use bcz low code readbility
+
+# inline function
+
+use for small function
+
+use small function 100 times
+
+function call ki jagah hu function rakh do . No need to fxn calling repeatedly;
+
+used with small size function and that executables are small (handled automatic by compiler optimisation levels);
