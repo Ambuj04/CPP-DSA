@@ -162,3 +162,14 @@ use small function 100 times
 function call ki jagah hu function rakh do . No need to fxn calling repeatedly;
 
 used with small size function and that executables are small (handled automatic by compiler optimisation levels);
+
+
+# can constructor and destructor made virtual ??
+
+yes , but we need to access constructor by friend function
+
+# can constructor and destructor made virtual ??
+
+constructor => no, ctor can't be virtual because when ctor of a class is executed there is no virtual table in the memory, means no virtual pointer defined yet.so, the ctor should always be non - virtaul
+
+destructor => yes, it is really imp to handle proper dtor of derived class;
