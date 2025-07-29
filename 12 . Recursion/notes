@@ -1,0 +1,19 @@
+recurion is a function calling themselve
+
+recursive code contain components
+1. base case(when we have to stop)
+2.recursive relation
+3. processing (optional)
+
+head Recursion
+bc
+processing
+rr
+
+tail recurion
+bc
+rr
+processing
+
+magical lines: 1 case solve kardo baaki recursion sambhaal lega
+

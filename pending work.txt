@@ -40,10 +40,10 @@ longest number 179
 
 
 pointers...............................................
-pointers concepts
+
 pointer problems video
 
-basic maths for dsa
+basic maths for dsa(nieve and root is done)
 optimization sieve method
 
 time and space complexity of recurrsion
@@ -86,7 +86,7 @@ perfect squares
 minimum cost for tickets
 number of dice roll with target sum
 recurion btrcking...................................................
-concept
+
 sudoku solver
 count inversion
 in place merge sort

@@ -1,0 +1,148 @@
+# object oriented programming
+
+a programming technique which is evolve around objects.
+
+object:::: 
+
+what??   entity 
+
+1. have state/properties example name age etc
+2. have behavior/properties example bath,walk etc
+
+why?
+relate with real life impliment
+good readbility
+maintainance easy
+easy to use
+
+class => blueprint
+object => instance of a class
+
+by default all data member of a class is private
+
+# important terms 
+
+greedy alignment:
+When objects are stored in memory, compilers may add extra space (padding) to align data members for faster access. This is called greedy alignment. It can lead to unused memory between members.
+
+padding:
+Padding is the extra unused memory added by the compiler to align data members in memory. It helps improve performance but can increase memory usage.
+
+memory leak:
+A memory leak occurs when a program allocates memory but fails to release it after use. Over time, this can exhaust available memory and cause the program to crash or slow down.
+
+garbage collector:
+A garbage collector is a system that automatically frees memory that is no longer in use by the program. It helps prevent memory leaks by reclaiming unused memory.
+
+ # access modifiers 
+
+access modifiers:
+public : which access by in and out side of class
+private : which can access by inside of class
+protected : which can access by inside of class and by inheritance
+
+# constructor
+
+default constructor: (constructor is always in public access modifiers)
+to initialize object
+no return type
+name same as class
+called automatically in beginning
+a class has many constructor but with diff parameter
+
+default constructor
+parameterized constructor
+copy constructor
+
+# destructor
+
+default destructor: (it is run after the work of object is over)
+
+# 4 pillar of OOPS
+
+1.encapsulation
+2.inheritance
+3. polymophism
+4.abstraction
+
+# abstraction is a father of all three other
+
+if you think in oops , abstraction se alag hone ki ladai me chale gye tb tum loop me fas jaoge
+
+1. Encapsulation - like class which prevents all data 
+(data hiding)
+
+perfect encapsulation means all data members are private;
+
+2. Inheritance (gain property and member from base class)
+
+types - 
+
+base class  (inherit) public      protected   private
+ka access
+modifiers
+
+public                public      protected   private
+protected             protected   protected   private
+private               n/a           n/a         n/a
+
+protected is like private but it can be inherited by derive class where private class can't
+
+1. single level
+2. multi level
+3. multiple
+4. hierarchical
+5. hybrid
+
+3. polymorphis (exist in many form)
+ 1. compile time polymorphism 
+
+  1. func overloading
+  2. operator overloading
+
+ 2. run time polymorphism
+
+  1. func or method overriding
+
+4. Abstraction (like car controls and manual which give into to run but won't tell about engines)
+
+# const keyword
+
+use to declare that a variable , fucntion or object its value can't be change after initialization.
+
+compiler may be able to store variable in read only memory which cause faster result
+
+you can declare a func as const which meaans that it does not modify the state of the objects it is called on;
+
+const use in member func family where you don't want to change the member variable
+
+
+# shallow copy and deep copy
+
+swallow copy me ekdono same location ko point krte hai. swallow copy done default copy ctor
+but deep copy me dono pointer alag alag ko point krte hai
+
+# static keyword in class
+
+if we make object from normal class then how the member func know which object is called that function.
+
+obj1.print();
+oj2.printt(); 
+
+ek hidden parameter pass hota hai . This parameter jo particular uss object se related hota hai.
+dono ke liye this pointer alag honge
+
+static data members => this variable is going to share memory with all of the class instances
+
+static data func=> there is no instance of that class being passed into that method (no this pointer passed)
+
+class abc{
+  public:
+  static int x,y;
+}
+to accesss these => int abc::x;
+use by => obj1.x ; obj2.x ; //both print value of same x and both are exact same
+
+in static data func we only accesss static data members
+
+
