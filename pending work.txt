@@ -49,7 +49,7 @@ optimization sieve method
 time and space complexity of recurrsion
 
 Recursion.....................
-recursion concepts
+
 find 2^4
 fing 5!
 count
@@ -96,5 +96,5 @@ combinational sum
 permutation
 beautiful arrangement
 distribute repeating integers
-oops.............................
+
 
