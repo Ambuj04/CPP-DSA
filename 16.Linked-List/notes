@@ -22,5 +22,19 @@ each node has a data and a pointer to the next node
 
 each node has a data, a pointer to the next node, and a pointer to the previous node
 
+#circular singly linked list
 
+no head and tail, the last node points to the first node
+
+here delete and insertion occurs basis of values of the node
+
+just search the value and delete or insert
+
+# doubly circular linked list
+
+each node contains data, a pointer to the next node, and a pointer to the previous node
+the last node's next pointer points to the first node, and the first node's previous pointer points to the last node
+allows traversal in both directions in a circular manner
+efficient for operations that require frequent insertions and deletions at both ends
+no node is truly the head or tail, as the list forms a closed loop
 
