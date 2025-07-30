@@ -1,19 +1,21 @@
-//check loop is present in LL or not
-//starting point of loop
-//remove loop
+// check loop is present in LL or not
+// starting point of loop
+// remove loop or last node point to null
 
-
-#include<iostream>
+#include <iostream>
 using namespace std;
-class Node{
-    public:
+class Node
+{
+public:
     int data;
-    Node* next;
-    Node(){
+    Node *next;
+    Node()
+    {
         this->data = 0;
         this->next = nullptr;
     }
-    Node(int data){
+    Node(int data)
+    {
         this->data = data;
         this->next = nullptr;
     }
@@ -30,44 +32,60 @@ int getLength(Node *head)
     }
     return len;
 }
+void print(Node *&head)
+{
+    Node *temp = head;
+    while (temp != nullptr)
+    {
+        cout << temp->data << " ";
+        temp = temp->next;
+    }
+}
 
-bool checkForLoop(Node* &head){
+bool checkForLoop(Node *&head)
+{
     // Floyd's cycle detection algorithm
     // using two pointer approach
-    if(head == nullptr){
+    if (head == nullptr)
+    {
         return false;
     }
-    Node* slow = head;
-    Node* fast = head;
+    Node *slow = head;
+    Node *fast = head;
 
-    while(fast != nullptr && fast->next != nullptr && fast->next->next != nullptr){
+    while (fast != nullptr && fast->next != nullptr && fast->next->next != nullptr)
+    {
         slow = slow->next;
         fast = fast->next->next;
 
-        if(slow == fast){
+        if (slow == fast)
+        {
             return true; // loop is present
         }
     }
     return false; // loop is not present
 }
 
-Node* startingPointLoop(Node* &head){
+Node *startingPointLoop(Node *&head)
+{
 
+    Node *slow = head;
+    Node *fast = head;
 
-    Node* slow = head;
-    Node* fast = head;
-
-    while(fast != nullptr && fast->next != nullptr && fast->next->next != nullptr){
+    while (fast != nullptr && fast->next != nullptr && fast->next->next != nullptr)
+    {
         slow = slow->next;
         fast = fast->next->next;
 
-        if(slow == fast){
-        slow = head;
-        break;    
+        if (slow == fast)
+        {
+            slow = head;
+            break;
         }
     }
 
-    while(slow != fast){
+    while (slow != fast)
+    {
         slow = slow->next;
         fast = fast->next;
     }
@@ -75,30 +93,62 @@ Node* startingPointLoop(Node* &head){
     return slow;
 }
 
+Node *removeLoop(Node *&head)
+{
 
-int main(){
-    //singly linked list(normal method for creation)
- Node* first = new Node(1);
- Node* second = new Node(2);
- Node* third = new Node(3);
- Node* fourth = new Node(4);
- Node* fifth = new Node(5);
- Node* sixth= new Node(6);
- Node* seventh= new Node(7);
- Node* eighth= new Node(8);
- Node* nineth= new Node(9);
- first->next = second;
- second->next = third;
- third->next = fourth;
- fourth->next = fifth;
- fifth->next = sixth;
+    Node *slow = head;
+    Node *fast = head;
+
+    while (fast != nullptr && fast->next != nullptr && fast->next->next != nullptr)
+    {
+        slow = slow->next;
+        fast = fast->next->next;
+
+        if (slow == fast)
+        {
+            slow = head;
+            break;
+        }
+    }
+    Node *prev = fast;
+    while (slow != fast)
+    {
+        prev = fast;
+        slow = slow->next;
+        fast = fast->next;
+    }
+    prev->next = nullptr; // removing the loop by pointing the last node to null
+
+    return slow;
+}
+
+int main()
+{
+    // singly linked list(normal method for creation)
+    Node *first = new Node(1);
+    Node *second = new Node(2);
+    Node *third = new Node(3);
+    Node *fourth = new Node(4);
+    Node *fifth = new Node(5);
+    Node *sixth = new Node(6);
+    Node *seventh = new Node(7);
+    Node *eighth = new Node(8);
+    Node *nineth = new Node(9);
+    first->next = second;
+    second->next = third;
+    third->next = fourth;
+    fourth->next = fifth;
+    fifth->next = sixth;
     sixth->next = seventh;
     seventh->next = eighth;
     eighth->next = nineth;
-    nineth->next = fifth; //creating a loop in the linked list
-cout<<checkForLoop(first)<<endl; //checking for loop
-cout<<startingPointLoop(first)->data<<endl; //checking for starting point of loop
+    nineth->next = fifth;                           // creating a loop in the linked list
+    cout << checkForLoop(first) << endl;            // checking for loop
+    cout << startingPointLoop(first)->data << endl; // checking for starting point of loop
+    removeLoop(first);                              // removing the loop
+    cout << checkForLoop(first) << endl;            // checking for loop after removing it
+    cout << endl;
+    print(first); // printing the linked list after removing the loop
 
-
-return 0;
- }
+    return 0;
+}
