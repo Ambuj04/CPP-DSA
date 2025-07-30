@@ -34,7 +34,7 @@ Node* reverse(Node* &prev,Node* &curr){
     curr->next = prev;
 
     //recursive
-    return reverse(curr,nextNode);
+    returnreverse(curr,nextNode);
 }
 
 int main(){

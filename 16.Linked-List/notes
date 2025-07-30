@@ -38,3 +38,12 @@ allows traversal in both directions in a circular manner
 efficient for operations that require frequent insertions and deletions at both ends
 no node is truly the head or tail, as the list forms a closed loop
 
+# torutoise algo / slow and fast algo / two pointer approach
+
+slow and fast at head;
+slow go 1 step;
+fast go 2 step;
+slow go when fast go..
+ 
+odd case => fast stop and slow point middle
+even case => fast stop and slow point middle (question dependent)
