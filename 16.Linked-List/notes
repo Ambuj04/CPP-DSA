@@ -6,3 +6,48 @@ low memory waste
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (position == 1) {
+        insertAtHead(head, tail, data);
+        return;
+    }
+
+    Node* newNode = new Node(data);
+    Node* temp = head;
+
+    // Traverse to the node just before the desired position
+    for (int i = 1; i < position - 1 && temp != nullptr; i++) {
+        temp = temp->next;
+    }
+
+    if (temp == nullptr) {
+        // If we reached the end of the list, insert at tail
+        insertAtTail(head, tail, data);
+    } else {
+        // Insert the new node at the desired position
+        newNode->next = temp->next;
+        temp->next = newNode;
+
+        // If we inserted at the end, update tail
+        if (newNode->next == nullptr) {
+            tail = newNode;
+        }
+    }
+
+
+
