@@ -1,4 +1,4 @@
 .vscode
 .git
 tempCodeRunnerFile.cpp
-.exe
+*.exe
