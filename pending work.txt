@@ -97,4 +97,8 @@ permutation
 beautiful arrangement
 distribute repeating integers
 
+LL...........
+remove duplicate from random LL
+
+
 
