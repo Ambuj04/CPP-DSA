@@ -18,13 +18,6 @@ stack<int>s;
  return ans;
 }
 
-void print(vector<int>&ans){
- 
- for(auto i:ans){
-    cout<<i<<" "; 
-
- }
-}
 
 vector<int>  prevSmaller(vector<int>&v){
     //left to right
@@ -42,6 +35,15 @@ vector<int>  prevSmaller(vector<int>&v){
 
 return ans;
 }
+
+void print(vector<int>&ans){
+ 
+ for(auto i:ans){
+    cout<<i<<" "; 
+
+ }
+}
+
 
 int main(){
  vector<int>v;
