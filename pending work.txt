@@ -1,23 +1,14 @@
 linear and binary seach and sort..................................
-find pivot using binary search
-search in a rotated and sorted array BS
-
-Find 'K' closest to a given value in an array
-exponential search
-Unbounded Binary search
-Book allocation problem
+Book allocation problem (cpp make)
 Painter Partition problem
 Aggresive cows problem
 EKO SPOJ
 ROTI PRATA SPOJ
+
 char array and strings...........................................
 
-reverse a string
-replace all places with @
-Palindrome 
-string functions
-Lc 1047
-lc 1910
+
+
 no same adjacent character
 lc 680
 lc 539 (most imp )
