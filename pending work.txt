@@ -7,19 +7,6 @@ ROTI PRATA SPOJ
 
 char array and strings...........................................
 
-
-
-no same adjacent character
-lc 680
-lc 539 (most imp )
-lc 647
-
-valid anagram 242
-reverse only letter 917
-longest commmon prefix 14
-reverse vowels a string 345
-isomorphic string 205
-reorganise string 767
 group anagram 49 (most imp)
 longest palindrome 5
 find index of first occurance 28
@@ -27,7 +14,13 @@ string to int 8
 string compression 443
 integer to roman 12
 zig zag conversion 6
+
 longest number 179
+help ramu question
+largest number 179
+custom sort string 791
+verify alien dictionary 953
+londestword 524
 
 
 pointers...............................................
