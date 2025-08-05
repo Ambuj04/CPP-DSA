@@ -4,25 +4,13 @@ Painter Partition problem
 Aggresive cows problem
 EKO SPOJ
 ROTI PRATA SPOJ
-
 char array and strings...........................................
-
-group anagram 49 (most imp)
-longest palindrome 5
-find index of first occurance 28
-string to int 8
-string compression 443
-integer to roman 12
-zig zag conversion 6
-
 longest number 179
 help ramu question
 largest number 179
 custom sort string 791
 verify alien dictionary 953
 londestword 524
-
-
 pointers...............................................
 
 pointer problems video
@@ -30,7 +18,7 @@ pointer problems video
 basic maths for dsa(nieve and root is done)
 optimization sieve method
 
-time and space complexity of recurrsion
+
 
 Recursion.....................
 
