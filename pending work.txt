@@ -11,21 +11,7 @@ largest number 179
 custom sort string 791
 verify alien dictionary 953
 londestword 524
-pointers...............................................
-
-pointer problems video
-
-basic maths for dsa(nieve and root is done)
-optimization sieve method
-
-
-
-Recursion.....................
-
-find 2^4
-fing 5!
-count
-reverse count
+Recursion........................................................
 fib series
 stair prob 70
 print all array
@@ -58,7 +44,6 @@ perfect squares
 minimum cost for tickets
 number of dice roll with target sum
 recurion btrcking...................................................
-
 sudoku solver
 count inversion
 in place merge sort
@@ -68,9 +53,5 @@ combinational sum
 permutation
 beautiful arrangement
 distribute repeating integers
-
 LL...........
 remove duplicate from random LL
-
-
-
