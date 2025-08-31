@@ -55,3 +55,27 @@ beautiful arrangement
 distribute repeating integers
 LL...........
 remove duplicate from random LL
+copy list with random pointer
+rotate list
+delete N nodes after M nodes
+find min max btw critical points
+Merge Nodes between zeros
+stack.......................
+remove all adjacents string
+minimum bracket reversal
+next greater elements in LL
+celebrity problem
+n stack in array
+online stock span
+simplify path
+check if wor is valid after substitution
+decode string
+max rec in binary matrix
+car fleet
+queue..................
+queue using stack
+stack using queue
+k queue in an array
+max number of task you assign(imp)
+sum of min ans max of all subarrays of size k
+trees...................
