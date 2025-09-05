@@ -79,3 +79,5 @@ k queue in an array
 max number of task you assign(imp)
 sum of min ans max of all subarrays of size k
 trees...................
+reverse order traverse
+count leaf nodes
