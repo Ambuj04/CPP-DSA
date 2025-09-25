@@ -46,6 +46,6 @@ public:
             }
         }
 
-        return dummy->next;
+        return dummy->next; 
     }
 };
