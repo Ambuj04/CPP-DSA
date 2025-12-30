@@ -1,0 +1,34 @@
+conatiners and algorithm (STL)
+
+conatiners -> 
+
+sequence container :
+Array
+Vector
+Deque
+List
+
+conatainers adaptors:
+stack
+queue
+priority queue
+
+associative containers:
+set
+map
+multiset
+multimap
+
+unordered associative: (same but not sorted)
+unordered set
+unordered map
+unordered multiset
+unordered multimap
+
+algorithm ->
+
+binary search
+lower/upper bound
+min/max
+reverse/rotate
+sort/swap etc.
