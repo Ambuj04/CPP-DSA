@@ -1,11 +1,12 @@
 conatiners and algorithm (STL)
+iterator functors
 
 conatiners -> 
 
 sequence container :
-Array
-Vector
-Deque
+Array     continous
+Vector     continous
+Deque       continous
 List
 
 conatainers adaptors:
@@ -32,3 +33,43 @@ lower/upper bound
 min/max
 reverse/rotate
 sort/swap etc.
+
+
+
+1 2 3 4 5 5 9
+
+lower bound gives that number or if not present then give next number bigger than that number
+lower bound of 3 is 3
+lower bound of 6 is 9
+
+upper bound of 5 is 9
+
+return location
+
+array ->pointer
+vector ->iterator
+
+
+
+upper and lower bound for set and map is generally 0(n)
+
+for O(logn)
+auto it = setName.lower_bound(....);
+
+
+map me key m bas lgega
+
+
+vector
+min_element();//return pointer or iterator
+max_element();
+count();
+find();
+reverse();
+ 
+
+ v.end() is next iterator of last element
+ v.begin() is 0th iterator or pointer of 0th index
+
+vector-> min_element(v.begin(),v.end());
+array -> min_element(arr,arr+N);
